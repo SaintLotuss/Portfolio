@@ -11,6 +11,9 @@
  
     body {
         margin: 0;
+        width: 100%;
+        height: 100%;
+        display: absolute;
     }
     nav {
         display: flex;
@@ -50,6 +53,52 @@
         border-radius: 10px;
         color: black;
     }
+
+    body {
+        margin: 0;
+    }
+ 
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+ 
+    li {
+        display: inline-block;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+ 
+    #Home {
+        height: 100%;
+        padding: 10rem 0 15rem 0;
+        background-color: rgb(250, 250, 250);
+        color: white;
+    }
+    #About {
+    height: 1000px;
+    background-color:black;
+        color: white;;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #certificates {
+    height: 100vh;
+    background-color:black;
+    border: solid 1px black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+}
+
+    
 </style>
  
  
@@ -72,12 +121,12 @@
     <section id="home">
         <div style="display: grid; grid-template-columns: 2fr 1fr; justify-content: center;">
             <div style="width: 600px; font-size: 2rem;">
-                <h1 style="text-align: center; margin-top: 15rem;">Teaching Music And <br> Building A Band</h1>
+                <h1 style="text-align: center; margin-top: 15rem;">Teaching Music And <br>Programming</h1>
  
                 <p style="font-size: 1.2rem !important;">Hi! I'm a musician nurtured by Band 31 Sasmuan, Pampanga
                     I specialized in playing Trumpet, Snare Drums, and
-                    French Horn(Double).  I can also conduct some music piece,
-                    and rest assured I can teach you music to be a fine musician.
+                    French Horn(Double).  I'm a IT Student and I specialized in html, Web Designing, Web Developing, and
+                    Building Database(chariz).
                 </p>
                 <div style="text-align: center; margin-top: 3rem;">
                     <button class="btn2">
@@ -87,29 +136,95 @@
                         Learn more
                     </button>
                 </div>
-               
             </div>
- 
-            <div style="background-color: black; color: white; padding: 1rem 9rem 2rem 1rem; height: 100vh;">
+            <div style="background-color: black; color: white; padding: 1rem 9rem 2rem 1rem; height: 94vh;">
                 <div>
                     <img src="img/MicrosoftTeams-image.png" alt="" width="330" height="370">
                 </div>
- 
                 <div style="border: solid 1px white; border-radius: 10px; padding: 1rem;">
- 
                     <h1>Wilfredo T. Pilapil Jr.</h1>
                     <p>3rd Year BSIT. Future Band Manager</p>
                      ●I can make some new piece from new songs<br>
                      ●I can conduct<br>
-                     ●I can teach music<br>
+                     ●I can make Website<br>
                     <p>
                         EST. 2023 <br>
                         Based in the Philippines
-                    </p><br>
- 
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+  <section id="About" style="height: 100%; display: grid; align-items: center; justify-content: center;">
+    <h1 style="text-align: center; font-size: 3rem;" >My work</h1>
+    <div style="display: grid;">
+        <br>
+        <br>
+        <br>
+        <div style="display: grid; gap: 5rem; grid-template-columns: 300px 400px; margin-bottom: 4rem;">
+            <div>
+                <h1 style="text-align: center; font-size: 2rem;">My Portfolio #1</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium.</h2>
+            </div>
+
+            <div>
+                <img style="object-fit: cover; height: 200px;" src="img/123.png" alt="">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div style="display: grid; gap: 5rem; grid-template-columns: 300px 400px; margin-bottom: 4rem;">
+            <div>
+                <h1 style="text-align: center; font-size: 2rem;">Making </h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium.</h2>
+            </div>
+
+            <div>
+                <img style="object-fit: cover; height: 250px; width: 290px;" src="img/Untitled.png" alt="">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div style="display: grid; gap: 5rem; grid-template-columns: 300px 400px; margin-bottom: 4rem;">
+      <div>
+          <h1 style="text-align: center; font-size: 2rem;">Creating Music Piece</h1>
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium.</h2>
+      </div>
+     
+      <div>
+          <img style="object-fit: cover; height: 300px;" src="img/MicrosoftTeams-image (2).png" alt="">
+      </div>
+</section>
+<section id="certificates">
+    <h1 style="font-size: 3rem;">My Certificates</h1>
+    <div style="display: flex; align-items: center;
+        justify-content: center; gap: 1rem;">
+        <div class="card1">
+            <img height="300px" src="img/adaq.png" alt="" width="400px" heigth="100px" >
+            <div>
+              <img height="300px" src="img/data.png" alt="" width="400px" heigth="100px">
+          </div>
+        </div>
+ 
+        <div>
+            <img height="300px" src="img/ddc.png" alt="" width="400px" heigth="100px">
+            <div>
+              <img height="300px" src="img/ddd.png" alt="" width="400px" heigth="100px">
+           
+          </div>
+        </div>
+ 
+        <div>
+            <img height="300px" src="img/share.png" alt="" width="400px" heigth="100px">
+            <div>
+              <img height="300px" src="img/gg.png" alt="" width="400px" heigth="100px">
+          </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
